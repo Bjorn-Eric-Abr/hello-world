@@ -1,0 +1,15 @@
+{
+	"scripts": {
+		"generate:schema": "drizzle-kit introspect:pg"
+	},
+	"devDependencies": {
+		"drizzle-kit": "^0.19.13",
+		"drizzle-orm": "^0.28.6"
+	},
+	"dependencies": {
+		"graphql": "^16.8.1",
+		"pg": "^8.11.3",
+		"postgres": "^3.4.1",
+		"ts-node": "^10.9.1"
+	}
+}
